@@ -239,7 +239,7 @@ else:
             get_ext(episode_html)
             
             dl_media(series_title, title)
-            dl_subtitles(base_html, series_title, title)
+            dl_subtitles(episode_html, series_title, title)
         
     else:
         ascii_clear()
